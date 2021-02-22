@@ -14,7 +14,7 @@ def read_json_file():
         return json.load(json_data, strict=False)
 
 
-def navigate_through_file(data):
+def navigate_through_file():
     """
     Navigates the user through the file
     :return:
