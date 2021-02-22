@@ -6,10 +6,10 @@ A module for parsing an json object (file) obtained using the Twitter API
 - Enter json file to navigate through it.
 - Follow the instructions.
 
-##Functions
+## Functions
 - in main.py module there are two functions:
 - read_json_file, which reads the json file and converts it to python object
 - navigate_through_file, which navigates the user through json file, returned by first function.
 
-##License
+## License
 - MIT LICENSE
