@@ -19,6 +19,7 @@ def navigate_through_file(data):
     Navigates the user through the file
     :return:
     """
+    data = read_json_file()
     while True:
         if isinstance(data, dict):
             print("This is a dictionary. Do you want to see all the keys?\n")
@@ -82,3 +83,6 @@ def navigate_through_file(data):
                 quit()
         else:
             print("Please, print yes or no, or print 'q' if you wish to quit.\n")
+
+
+navigate_through_file()
